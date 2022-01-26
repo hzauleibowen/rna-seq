@@ -1,0 +1,248 @@
+nohup wget -O "ERX1184216" -c https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos1/sra-pub-run-2/ERR1104685/ERR1104685.1>ERX1184216.out &
+nohup wget -O "ERX1877981" -c https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos1/sra-pub-run-2/ERR1815469/ERR1815469.1>ERX1877981.out &
+nohup wget -O "ERX1877982" -c https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos1/sra-pub-run-2/ERR1815470/ERR1815470.1>ERX1877982.out &
+nohup wget -O "ERX1877983" -c https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos1/sra-pub-run-2/ERR1815471/ERR1815471.1>ERX1877983.out &
+nohup wget -O "ERX1877984" -c https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos1/sra-pub-run-2/ERR1815472/ERR1815472.1>ERX1877984.out &
+nohup wget -O "ERX1877988" -c https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos1/sra-pub-run-2/ERR1815476/ERR1815476.2>ERX1877988.out &
+
+
+nohup wget -O "ERS682350" -c https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos1/sra-pub-run-1/ERR789443/ERR789443.1>ERS682350.out &
+nohup wget -O "ERS682352" -c https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos1/sra-pub-run-1/ERR789445/ERR789445.1>ERS682352.out &
+nohup wget -O "ERS682353" -c https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos1/sra-pub-run-1/ERR789446/ERR789446.1>ERS682353.out &
+nohup wget -O "ERS682355" -c https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos1/sra-pub-run-1/ERR789448/ERR789448.1>ERS682355.out &
+nohup wget -O "ERS682356" -c https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos1/sra-pub-run-1/ERR789449/ERR789449.1>ERS682356.out &
+nohup wget -O "ERS799787" -c https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos1/sra-pub-run-1/ERR972387/ERR972387.1>ERS799787.out &
+nohup wget -O "ERS799788" -c https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos1/sra-pub-run-1/ERR972389/ERR972389.1>ERS799788.out &
+
+
+
+nohup wget -O "SRS1168918_2" -c https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos1/sra-pub-run-5/SRR2946542/SRR2946542.1>SRS1168918_2.out &
+
+nohup wget -O "SRS1168880_1" -c https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos1/sra-pub-run-5/SRR2924912/SRR2924912.1>SRS1168880_1.out &
+nohup wget -O "SRS1168880_2" -c https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos1/sra-pub-run-5/SRR2946530/SRR2946530.1>SRS1168880_2.out &
+
+nohup wget -O "SRS1168906_1" -c https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos1/sra-pub-run-5/SRR2946532/SRR2946532.1>SRS1168906_1.out &
+nohup wget -O "SRS1168906_2" -c https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos1/sra-pub-run-5/SRR2946533/SRR2946533.1>SRS1168906_2.out &
+
+nohup wget -O "SRS1168912_1" -c https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos1/sra-pub-run-5/SRR2946535/SRR2946535.1>SRS1168912_1.out &
+nohup wget -O "SRS1168912_2" -c https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos1/sra-pub-run-5/SRR2946536/SRR2946536.1>SRS1168912_2.out &
+
+nohup wget -O "SRS1168914_1" -c https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos1/sra-pub-run-5/SRR2946538/SRR2946538.1>SRS1168914_1.out &
+nohup wget -O "SRS1168914_2" -c https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos1/sra-pub-run-5/SRR2946539/SRR2946539.1>SRS1168914_2.out &
+
+nohup wget -O "SRS1168921_1" -c https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos1/sra-pub-run-5/SRR2946844/SRR2946844.1>SRS1168921_1.out &
+nohup wget -O "SRS1168921_2" -c https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos1/sra-pub-run-5/SRR2946889/SRR2946889.1>SRS1168921_2.out &
+
+nohup wget -O "SRS358081" -c https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos1/sra-pub-run-5/SRR543893/SRR543893.2>SRS358081.out &
+nohup wget -O "SRS358082" -c https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos2/sra-pub-run-7/SRR543897/SRR543897.2>SRS358082.out &
+
+
+nohup wget -O "SRS2093693_1" -c https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos2/sra-pub-run-7/SRR5406933/SRR5406933.1>SRS2093693_1.out &
+nohup wget -O "SRS2093693_2" -c https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos2/sra-pub-run-7/SRR5406934/SRR5406934.1>SRS2093693_2.out &
+
+nohup wget -O "SRX2863108" -c https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos2/sra-pub-run-7/SRR5617597/SRR5617597.1>SRX2863108.out &
+nohup wget -O "SRX3733879" -c https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos2/sra-pub-run-13/SRR6761654/SRR6761654.1>SRX3733879.out &
+nohup wget -O "SRX2863107" -c https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos2/sra-pub-run-7/SRR5617600/SRR5617600.1>SRX2863107.out &
+nohup wget -O "SRX3733880" -c https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos2/sra-pub-run-13/SRR6761653/SRR6761653.1>SRX3733880.out &
+nohup wget -O "SRX2863110" -c https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos2/sra-pub-run-7/SRR5617596/SRR5617596.1>SRX2863110.out &
+nohup wget -O "SRX2863109" -c https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos2/sra-pub-run-7/SRR5617601/SRR5617601.1>SRX2863109.out &
+nohup wget -O "SRX2863112" -c https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos2/sra-pub-run-7/SRR5617595/SRR5617595.1>SRX2863112.out &
+nohup wget -O "SRX2863090" -c https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos2/sra-pub-run-7/SRR5617615/SRR5617615.1>SRX2863090.out &
+nohup wget -O "SRX3733873" -c https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos2/sra-pub-run-13/SRR6761660/SRR6761660.1>SRX3733873.out &
+nohup wget -O "SRX3733876" -c https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos2/sra-pub-run-13/SRR6761657/SRR6761657.1>SRX3733876.out &
+nohup wget -O "SRX3733883" -c https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos2/sra-pub-run-13/SRR6761650/SRR6761650.1>SRX3733883.out &
+nohup wget -O "SRX2863091" -c https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos2/sra-pub-run-7/SRR5617614/SRR5617614.1>SRX2863091.out &
+nohup wget -O "SRX2863096" -c https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos2/sra-pub-run-7/SRR5617611/SRR5617611.1>SRX2863096.out &
+nohup wget -O "SRX2863092" -c https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos2/sra-pub-run-7/SRR5617616/SRR5617616.1>SRX2863092.out &
+nohup wget -O "SRX2863093" -c https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos2/sra-pub-run-7/SRR5617613/SRR5617613.1>SRX2863093.out &
+nohup wget -O "SRX2863115" -c https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos2/sra-pub-run-7/SRR5617591/SRR5617591.1>SRX2863115.out &
+nohup wget -O "SRX2863116" -c https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos2/sra-pub-run-7/SRR5617592/SRR5617592.1>SRX2863116.out &
+nohup wget -O "SRX3733884" -c https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos2/sra-pub-run-13/SRR6761649/SRR6761649.1>SRX3733884.out &
+nohup wget -O "SRX2863117" -c https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos2/sra-pub-run-7/SRR5617590/SRR5617590.1>SRX2863117.out &
+nohup wget -O "SRX2863118" -c https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos2/sra-pub-run-7/SRR5617589/SRR5617589.1>SRX2863118.out &
+nohup wget -O "SRX2863113" -c https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos2/sra-pub-run-7/SRR5617594/SRR5617594.1>SRX2863113.out &
+nohup wget -O "SRX3733881" -c https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos2/sra-pub-run-13/SRR6761652/SRR6761652.1>SRX3733881.out &
+nohup wget -O "SRX3733872" -c https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos2/sra-pub-run-13/SRR6761661/SRR6761661.1>SRX3733872.out &
+nohup wget -O "SRX2863094" -c https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos2/sra-pub-run-7/SRR5617617/SRR5617617.1>SRX2863094.out &
+nohup wget -O "SRX2863105" -c https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos2/sra-pub-run-7/SRR5617603/SRR5617603.1>SRX2863105.out &
+nohup wget -O "SRX2863097" -c https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos2/sra-pub-run-7/SRR5617610/SRR5617610.1>SRX2863097.out &
+nohup wget -O "SRX2863095" -c https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos2/sra-pub-run-7/SRR5617612/SRR5617612.1>SRX2863095.out &
+nohup wget -O "SRX2863089" -c https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos2/sra-pub-run-7/SRR5617618/SRR5617618.1>SRX2863089.out &
+nohup wget -O "SRX2863081" -c https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos2/sra-pub-run-7/SRR5617626/SRR5617626.1>SRX2863081.out &
+nohup wget -O "SRX3733874" -c https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos2/sra-pub-run-13/SRR6761659/SRR6761659.1>SRX3733874.out &
+nohup wget -O "SRX2863080" -c https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos2/sra-pub-run-7/SRR5617627/SRR5617627.1>SRX2863080.out &
+nohup wget -O "SRX2863083" -c https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos2/sra-pub-run-7/SRR5617622/SRR5617622.1>SRX2863083.out &
+nohup wget -O "SRX2863082" -c https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos2/sra-pub-run-7/SRR5617624/SRR5617624.1>SRX2863082.out &
+nohup wget -O "SRX2863084" -c https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos2/sra-pub-run-7/SRR5617625/SRR5617625.1>SRX2863084.out &
+nohup wget -O "SRX2863111" -c https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos2/sra-pub-run-7/SRR5617599/SRR5617599.1>SRX2863111.out &
+nohup wget -O "SRX2863114" -c https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos2/sra-pub-run-7/SRR5617593/SRR5617593.1>SRX2863114.out &
+nohup wget -O "SRX2863102" -c https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos2/sra-pub-run-7/SRR5617598/SRR5617598.1>SRX2863102.out &
+nohup wget -O "SRX2863106" -c https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos2/sra-pub-run-7/SRR5617602/SRR5617602.1>SRX2863106.out &
+nohup wget -O "SRX2863104" -c https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos2/sra-pub-run-7/SRR5617604/SRR5617604.1>SRX2863104.out &
+nohup wget -O "SRX2863086" -c https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos2/sra-pub-run-7/SRR5617623/SRR5617623.1>SRX2863086.out &
+nohup wget -O "SRX2863088" -c https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos2/sra-pub-run-7/SRR5617619/SRR5617619.1>SRX2863088.out &
+nohup wget -O "SRX2863087" -c https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos2/sra-pub-run-7/SRR5617620/SRR5617620.1>SRX2863087.out &
+nohup wget -O "SRX3733875" -c https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos2/sra-pub-run-13/SRR6761658/SRR6761658.1>SRX3733875.out &
+nohup wget -O "SRX2863103" -c https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos2/sra-pub-run-7/SRR5617605/SRR5617605.1>SRX2863103.out &
+nohup wget -O "SRX2863085" -c https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos2/sra-pub-run-7/SRR5617621/SRR5617621.1>SRX2863085.out &
+nohup wget -O "SRX2863100" -c https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos2/sra-pub-run-7/SRR5617607/SRR5617607.1>SRX2863100.out &
+nohup wget -O "SRX2863100" -c https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos2/sra-pub-run-7/SRR5617607/SRR5617607.1>SRX2863100.out &
+nohup wget -O "SRX3733877" -c https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos2/sra-pub-run-13/SRR6761656/SRR6761656.1>SRX3733877.out &
+nohup wget -O "SRX2863099" -c https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos2/sra-pub-run-7/SRR5617609/SRR5617609.1>SRX2863099.out &
+nohup wget -O "SRX3733878" -c https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos2/sra-pub-run-13/SRR6761655/SRR6761655.1>SRX3733878.out &
+nohup wget -O "SRX2863101" -c https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos2/sra-pub-run-7/SRR5617606/SRR5617606.1>SRX2863101.out &
+nohup wget -O "SRX3733882" -c https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos2/sra-pub-run-13/SRR6761651/SRR6761651.1>SRX3733882.out &
+nohup wget -O "SRX3733871" -c https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos2/sra-pub-run-13/SRR6761662/SRR6761662.1>SRX3733871.out &
+nohup wget -O "SRX2863098" -c https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos2/sra-pub-run-7/SRR5617608/SRR5617608.1>SRX2863098.out &
+nohup wget -O "SRX1942619" -c https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos1/sra-pub-run-1/SRR3892846/SRR3892846.1>SRX1942619.out &
+nohup wget -O "SRX1942618" -c https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos1/sra-pub-run-1/SRR3892845/SRR3892845.1>SRX1942618.out &
+nohup wget -O "SRX1942617" -c https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos1/sra-pub-run-1/SRR3892844/SRR3892844.1>SRX1942617.out &
+nohup wget -O "SRX1942616" -c https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos1/sra-pub-run-1/SRR3892843/SRR3892843.1>SRX1942616.out &
+nohup wget -O "SRX1942615" -c https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos1/sra-pub-run-1/SRR3892842/SRR3892842.1>SRX1942615.out &
+nohup wget -O "SRX1942614" -c https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos1/sra-pub-run-1/SRR3892841/SRR3892841.1>SRX1942614.out &
+nohup wget -O "SRX2980559" -c https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos2/sra-pub-run-11/SRR5801198/SRR5801198.1>SRX2980559.out &
+nohup wget -O "SRX2980558" -c https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos2/sra-pub-run-11/SRR5801199/SRR5801199.1>SRX2980558.out &
+nohup wget -O "SRX2981274" -c https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos2/sra-pub-run-11/SRR5801910/SRR5801910.1>SRX2981274.out &
+nohup wget -O "SRX2981273" -c https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos2/sra-pub-run-11/SRR5801911/SRR5801911.1>SRX2981273.out &
+nohup wget -O "SRX2981272" -c https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos2/sra-pub-run-11/SRR5801912/SRR5801912.1>SRX2981272.out &
+nohup wget -O "SRX2981271" -c https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos2/sra-pub-run-11/SRR5801913/SRR5801913.1>SRX2981271.out &
+nohup wget -O "SRX2981284" -c https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos2/sra-pub-run-11/SRR5801923/SRR5801923.1>SRX2981284.out &
+nohup wget -O "SRX2981283" -c https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos2/sra-pub-run-11/SRR5801924/SRR5801924.1>SRX2981283.out &
+nohup wget -O "SRX2981282" -c https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos2/sra-pub-run-11/SRR5801925/SRR5801925.1>SRX2981282.out &
+nohup wget -O "SRX2981281" -c https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos2/sra-pub-run-11/SRR5801926/SRR5801926.1>SRX2981281.out &
+nohup wget -O "SRX2981290" -c https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos2/sra-pub-run-11/SRR5801938/SRR5801938.1>SRX2981290.out &
+nohup wget -O "SRX2981289" -c https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos2/sra-pub-run-11/SRR5801939/SRR5801939.1>SRX2981289.out &
+nohup wget -O "SRX2981749" -c https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos2/sra-pub-run-11/SRR5802407/SRR5802407.1>SRX2981749.out &
+nohup wget -O "SRX2981748" -c https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos2/sra-pub-run-11/SRR5802408/SRR5802408.1>SRX2981748.out &
+nohup wget -O "SRX2981747" -c https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos2/sra-pub-run-11/SRR5802409/SRR5802409.1>SRX2981747.out &
+nohup wget -O "SRX2981746" -c https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos2/sra-pub-run-11/SRR5802410/SRR5802410.1>SRX2981746.out &
+nohup wget -O "SRX2981756" -c https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos2/sra-pub-run-11/SRR5802415/SRR5802415.1>SRX2981756.out &
+nohup wget -O "SRX2981755" -c https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos2/sra-pub-run-11/SRR5802416/SRR5802416.1>SRX2981755.out &
+nohup wget -O "SRX2981754" -c https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos2/sra-pub-run-11/SRR5802417/SRR5802417.1>SRX2981754.out &
+nohup wget -O "SRX2981753" -c https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos2/sra-pub-run-11/SRR5802418/SRR5802418.1>SRX2981753.out &
+nohup wget -O "SRX2981768" -c https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos2/sra-pub-run-11/SRR5802423/SRR5802423.1>SRX2981768.out &
+nohup wget -O "SRX2981767" -c https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos2/sra-pub-run-11/SRR5802424/SRR5802424.1>SRX2981767.out &
+nohup wget -O "SRX2981766" -c https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos2/sra-pub-run-11/SRR5802425/SRR5802425.1>SRX2981766.out &
+nohup wget -O "SRX2981765" -c https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos2/sra-pub-run-11/SRR5802426/SRR5802426.1>SRX2981765.out &
+nohup wget -O "SRX2981916" -c https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos2/sra-pub-run-11/SRR5802555/SRR5802555.1>SRX2981916.out &
+nohup wget -O "SRX2981915" -c https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos2/sra-pub-run-11/SRR5802556/SRR5802556.1>SRX2981915.out &
+nohup wget -O "SRX2981914" -c https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos2/sra-pub-run-11/SRR5802557/SRR5802557.1>SRX2981914.out &
+
+nohup wget -O "SRX2981913" -c https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos2/sra-pub-run-11/SRR5802558/SRR5802558.1>SRX2981913.out &
+nohup wget -O "SRX2981941" -c https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos2/sra-pub-run-11/SRR5802577/SRR5802577.1>SRX2981941.out &
+nohup wget -O "SRX2981940" -c https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos2/sra-pub-run-11/SRR5802578/SRR5802578.1>SRX2981940.out &
+nohup wget -O "SRX2981939" -c https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos2/sra-pub-run-11/SRR5802579/SRR5802579.1>SRX2981939.out &
+nohup wget -O "SRX2981938" -c https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos2/sra-pub-run-11/SRR5802580/SRR5802580.1>SRX2981938.out &
+nohup wget -O "SRX2981975" -c https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos2/sra-pub-run-11/SRR5802612/SRR5802612.1>SRX2981975.out &
+nohup wget -O "SRX2981974" -c https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos2/sra-pub-run-11/SRR5802613/SRR5802613.1>SRX2981974.out &
+nohup wget -O "SRX2981973" -c https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos2/sra-pub-run-11/SRR5802614/SRR5802614.1>SRX2981973.out &
+nohup wget -O "SRX2981972" -c https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos2/sra-pub-run-11/SRR5802615/SRR5802615.1>SRX2981972.out &
+nohup wget -O "SRX2981980" -c https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos2/sra-pub-run-11/SRR5802617/SRR5802617.1>SRX2981980.out &
+nohup wget -O "SRX2981979" -c https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos2/sra-pub-run-11/SRR5802618/SRR5802618.1>SRX2981979.out &
+nohup wget -O "SRX2981978" -c https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos2/sra-pub-run-11/SRR5802619/SRR5802619.1>SRX2981978.out &
+nohup wget -O "SRX2981977" -c https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos2/sra-pub-run-11/SRR5802620/SRR5802620.1>SRX2981977.out &
+nohup wget -O "SRX2982053" -c https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos2/sra-pub-run-11/SRR5802700/SRR5802700.1>SRX2982053.out &
+nohup wget -O "SRX2982052" -c https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos2/sra-pub-run-11/SRR5802701/SRR5802701.1>SRX2982052.out &
+nohup wget -O "SRX2982051" -c https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos2/sra-pub-run-11/SRR5802702/SRR5802702.1>SRX2982051.out &
+nohup wget -O "SRX2982354" -c https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos2/sra-pub-run-11/SRR5803010/SRR5803010.1>SRX2982354.out &
+
+nohup wget -O "SRX2982353" -c https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos2/sra-pub-run-11/SRR5803011/SRR5803011.1>SRX2982353.out &
+
+nohup wget -O "SRX2982352" -c https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos2/sra-pub-run-11/SRR5803012/SRR5803012.1>SRX2982352.out &
+
+nohup wget -O "SRX2982351" -c https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos2/sra-pub-run-11/SRR5803013/SRR5803013.1>SRX2982351.out &
+
+nohup wget -O "SRX2982359" -c https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos2/sra-pub-run-11/SRR5803014/SRR5803014.1>SRX2982359.out &
+
+nohup wget -O "SRX2982358" -c https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos2/sra-pub-run-11/SRR5803015/SRR5803015.1>SRX2982358.out &
+nohup wget -O "SRX2982357" -c https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos2/sra-pub-run-11/SRR5803016/SRR5803016.1>SRX2982357.out &
+nohup wget -O "SRX2982356" -c https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos2/sra-pub-run-11/SRR5803017/SRR5803017.1>SRX2982356.out &
+nohup wget -O "SRX2982363" -c https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos2/sra-pub-run-11/SRR5803018/SRR5803018.1>SRX2982363.out &
+nohup wget -O "SRX2982362" -c https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos2/sra-pub-run-11/SRR5803019/SRR5803019.1>SRX2982362.out &
+nohup wget -O "SRX2982361" -c https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos2/sra-pub-run-11/SRR5803020/SRR5803020.1>SRX2982361.out &
+nohup wget -O "SRX2982360" -c https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos2/sra-pub-run-11/SRR5803021/SRR5803021.1>SRX2982360.out &
+nohup wget -O "SRX2982368" -c https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos2/sra-pub-run-11/SRR5803022/SRR5803022.1>SRX2982368.out &
+nohup wget -O "SRX2982367" -c https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos2/sra-pub-run-11/SRR5803023/SRR5803023.1>SRX2982367.out &
+nohup wget -O "SRX2982366" -c https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos2/sra-pub-run-11/SRR5803024/SRR5803024.1>SRX2982366.out &
+nohup wget -O "SRX2982365" -c https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos2/sra-pub-run-11/SRR5803025/SRR5803025.1>SRX2982365.out &
+nohup wget -O "SRX2982364" -c https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos2/sra-pub-run-11/SRR5803025/SRR5803025.1>SRX2982365.out &
+nohup wget -O "SRX2982372" -c https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos2/sra-pub-run-11/SRR5803026/SRR5803026.1>SRX2982372.out &
+nohup wget -O "SRX2982371" -c https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos2/sra-pub-run-11/SRR5803027/SRR5803027.1>SRX2982371.out &
+nohup wget -O "SRX2982370" -c https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos2/sra-pub-run-11/SRR5803028/SRR5803028.1>SRX2982370.out &
+nohup wget -O "SRX2982369" -c https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos2/sra-pub-run-11/SRR5803029/SRR5803029.1>SRX2982369.out &
+nohup wget -O "SRX2982408" -c https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos2/sra-pub-run-11/SRR5803071/SRR5803071.1>SRX2982408.out &
+nohup wget -O "SRX2982407" -c https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos2/sra-pub-run-11/SRR5803072/SRR5803072.1>SRX2982407.out &
+nohup wget -O "SRX2982406" -c https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos2/sra-pub-run-11/SRR5803073/SRR5803073.1>SRX2982406.out &
+nohup wget -O "SRX2982405" -c https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos2/sra-pub-run-11/SRR5803074/SRR5803074.1>SRX2982405.out &
+nohup wget -O "SRX2982573" -c https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos2/sra-pub-run-11/SRR5803236/SRR5803236.1>SRX2982573.out &
+nohup wget -O "SRX2982572" -c https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos2/sra-pub-run-11/SRR5803237/SRR5803237.1>SRX2982572.out &
+nohup wget -O "SRX2982571" -c https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos2/sra-pub-run-11/SRR5803238/SRR5803238.1>SRX2982571.out &
+nohup wget -O "SRX2982570" -c https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos2/sra-pub-run-11/SRR5803239/SRR5803239.1>SRX2982570.out &
+nohup wget -O "SRX2983139" -c https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos2/sra-pub-run-11/SRR5803803/SRR5803803.1>SRX2983139.out &
+nohup wget -O "SRX2983138" -c https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos2/sra-pub-run-11/SRR5803804/SRR5803804.1>SRX2983138.out &
+nohup wget -O "SRX2983137" -c https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos2/sra-pub-run-11/SRR5803805/SRR5803805.1>SRX2983137.out &
+nohup wget -O "SRX2983136" -c https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos2/sra-pub-run-11/SRR5803806/SRR5803806.1>SRX2983136.out &
+nohup wget -O "SRX2983151" -c https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos2/sra-pub-run-11/SRR5803840/SRR5803840.1>SRX2983151.out &
+nohup wget -O "SRX2983150" -c https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos2/sra-pub-run-11/SRR5803841/SRR5803841.1>SRX2983150.out &
+nohup wget -O "SRX2983149" -c https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos2/sra-pub-run-11/SRR5803842/SRR5803842.1>SRX2983149.out &
+nohup wget -O "SRX2983148" -c https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos2/sra-pub-run-11/SRR5803843/SRR5803843.1>SRX2983148.out &
+nohup wget -O "SRX2983156" -c https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos2/sra-pub-run-11/SRR5803848/SRR5803848.1>SRX2983156.out &
+nohup wget -O "SRX2983155" -c https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos2/sra-pub-run-11/SRR5803849/SRR5803849.1>SRX2983155.out &
+nohup wget -O "SRX2983154" -c https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos2/sra-pub-run-11/SRR5803850/SRR5803850.1>SRX2983154.out &
+nohup wget -O "SRX2983153" -c https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos2/sra-pub-run-11/SRR5803851/SRR5803851.1>SRX2983153.out &
+nohup wget -O "SRX2983161" -c https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos2/sra-pub-run-11/SRR5803856/SRR5803856.1>SRX2983161.out &
+nohup wget -O "SRX2983160" -c https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos2/sra-pub-run-11/SRR5803857/SRR5803857.1>SRX2983160.out &
+nohup wget -O "SRX2983159" -c https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos2/sra-pub-run-11/SRR5803858/SRR5803858.1>SRX2983159.out &
+nohup wget -O "SRX2983158" -c https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos2/sra-pub-run-11/SRR5803859/SRR5803859.1>SRX2983158.out &
+nohup wget -O "SRX2983166" -c https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos2/sra-pub-run-11/SRR5803862/SRR5803862.1>SRX2983166.out &
+nohup wget -O "SRX2983165" -c https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos2/sra-pub-run-11/SRR5803863/SRR5803863.1>SRX2983165.out &
+nohup wget -O "SRX2983164" -c https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos2/sra-pub-run-11/SRR5803864/SRR5803864.1>SRX2983164.out &
+nohup wget -O "SRX2983163" -c https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos2/sra-pub-run-11/SRR5803865/SRR5803865.1>SRX2983163.out &
+nohup wget -O "SRX2983181" -c https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos2/sra-pub-run-11/SRR5803880/SRR5803880.1>SRX2983181.out &
+nohup wget -O "SRX2983180" -c https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos2/sra-pub-run-11/SRR5803881/SRR5803881.1>SRX2983180.out &
+
+
+nohup wget -O "SRX2983184" -c https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos2/sra-pub-run-11/SRR5803891/SRR5803891.1>SRX2983184.out &
+nohup wget -O "SRX2983183" -c https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos2/sra-pub-run-11/SRR5803892/SRR5803892.1>SRX2983183.out &
+nohup wget -O "SRX2983364" -c https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos2/sra-pub-run-11/SRR5804123/SRR5804123.1>SRX2983364.out &
+nohup wget -O "SRX2983363" -c https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos2/sra-pub-run-11/SRR5804124/SRR5804124.1>SRX2983363.out &
+nohup wget -O "SRX2983368" -c https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos2/sra-pub-run-11/SRR5804133/SRR5804133.1>SRX2983368.out &
+nohup wget -O "SRX2983367" -c https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos2/sra-pub-run-11/SRR5804134/SRR5804134.1>SRX2983367.out &
+nohup wget -O "SRX2983372" -c https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos2/sra-pub-run-11/SRR5804148/SRR5804148.1>SRX2983372.out &
+nohup wget -O "SRX2983371" -c https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos2/sra-pub-run-11/SRR5804149/SRR5804149.1>SRX2983371.out &
+
+
+重下的数据
+nohup wget -O "SRS1168918_1" -c https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos1/sra-pub-run-5/SRR2946541/SRR2946541.1>SRS1168918_1.out &
+
+nohup wget -O "SRX2983371" -c https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos2/sra-pub-run-11/SRR5804149/SRR5804149.1>SRX2983371.out &
+nohup wget -O "ERX1877982" -c https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos1/sra-pub-run-2/ERR1815470/ERR1815470.1>ERX1877982.out &
+nohup wget -O "ERS682355" -c https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos1/sra-pub-run-1/ERR789448/ERR789448.1>ERS682355.out &
+nohup wget -O "ERS682352" -c https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos1/sra-pub-run-1/ERR789445/ERR789445.1>ERS682352.out &
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+nohup ls *.sra|while read id;do fastq-dump --split-3 $id;done &
+cd /public/agis/liuyuwen_group/wangchao
+
+
+
