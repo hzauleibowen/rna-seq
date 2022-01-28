@@ -12,5 +12,32 @@ nohup wget -O "NAME" -c site>NAME.out &  #download
 
 
 ## 2.数据分型
+在下载数据的时候发现，NCBI上有的是有fastq格式的数据的有的没有，所以统一下载NCBI格式的数据。
+首先将数据名集中到一个文件夹里，按每十行来拆分成若干name文件，使用集群推荐的脚本进行处理。
+```
+ls S* E* >test #汇集S、E开头的文件到test文件夹里
+split -| 10 test -d -a2 name_ #拆分
 
+script.sh #集群脚本
+#!/bin/bash
+#SBATCH --job-name=RNA ##RNA
+#SBATCH --partition=big ##作业申请的分区名称
+#SBATCH --nodes=1 ##作业申请的节点数
+#SBATCH --ntasks-per-node=1 ##作业申请的每个节点使用的核心数
+#SBATCH --error=chaifen.err
+#SBATCH --output=chaifen.out
+
+echo "process will start at : "
+date
+echo "++++++++++++++++++++++++++++++++++++++++"
+cd /public/agis/liuyuwen_group/wangchao/double
+conda init bash
+conda activate RNA-seq
+cat name_00 |while read id;do fastq-dump --split-3 $id;done # 拆分数据
+date
+
+sbatch scrpit.sh #提交任务
+
+
+```
 ## 3.定量
