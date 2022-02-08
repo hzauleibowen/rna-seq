@@ -40,5 +40,45 @@ sbatch scrpit.sh #提交任务
 ```
 还有一步很重要是通过NCBI的数据来判断下载的数据是否是链特异性建库，因为链特异性建库可以区分转录本来自正义反义链的，如果不区分的化直接QC然后比对可能会造成数据的缺失。
 接下来进行数据的质控，主要是去除adapter和N碱基多的reads去除低质量的片段，最后保留duplication进行下一步的定量。
+在集群里面提交脚本
+```
+#!/bin/bash
+#SBATCH --job-name=RNA ##RNA
+#SBATCH --partition=low ##作业申请的分区名称
+#SBATCH --nodes=1 ##作业申请的节点数
+#SBATCH --ntasks-per-node=1 ##作业申请的每个节点使用的核心数
+#SBATCH --error=sample_0.err
+#SBATCH --output=sample_0.out
+echo "process will start at : "
+date
+echo "++++++++++++++++++++++++++++++++++++++++"
+cd /public/agis/liuyuwen_group/wangchao/double/unspecificity
+cat sample__0  |while read id;
+do echo $id
+arr=($id)
+fq2=${arr[2]}
+fq1=${arr[1]}
+sample=${arr[0]}
+trim_galore -q 25 --phred33 --length 35 -e 0.1 --stringency 4 --paired  --gzip -o clean_data  $fq1   $fq2  
+done
+date
+
+```
+详细记录一下trim_galore的用法
+``
+--quality：设定Phred quality score阈值，默认为20。
+--phred33：：选择-phred33或者-phred64，表示测序平台使用的Phred quality score。
+--adapter：输入adapter序列。也可以不输入，Trim Galore!会自动寻找可能性最高的平台对应的adapter。自动搜选的平台三个，也直接显式输入这三种平台，即--illumina、--nextera和--small_rna。
+--stringency：设定可以忍受的前后adapter重叠的碱基数，默认为1（非常苛刻）。可以适度放宽，因为后一个adapter几乎不可能被测序仪读到。
+--length：设定输出reads长度阈值，小于设定值会被抛弃。
+--paired：对于双端测序结果，一对reads中，如果有一个被剔除，那么另一个会被同样抛弃，而不管是否达到标准。
+--retain_unpaired：对于双端测序结果，一对reads中，如果一个read达到标准，但是对应的另一个要被抛弃，达到标准的read会被单独保存为一个文件。
+--gzip和--dont_gzip：清洗后的数据zip打包或者不打包。
+--output_dir：输入目录。需要提前建立目录，否则运行会报错。
+-- trim-n : 移除read一端的reads
+
+trim_galore -q 25 --phred33 --length 35 -e 0.1 --stringency 4 --paired  --gzip -o clean_data  $fq1   $fq2 #所以这个脚本大致是使用phred进行质量微调，丢弃长度为35bp的reads，与修剪序列所需的adapter序列重叠、重叠数为4，错误率小于0.1，--gzip：清洗后的数据zip打包。
+```
+
 
 ## 3.定量
