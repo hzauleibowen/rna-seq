@@ -11,7 +11,7 @@ nohup wget -O "NAME" -c site>NAME.out &  #download
 
 
 
-## 2.数据分型
+## 2.数据分型以及质控
 在下载数据的时候发现，NCBI上有的是有fastq格式的数据的有的没有，所以统一下载NCBI格式的数据。
 首先将数据名集中到一个文件夹里，按每十行来拆分成若干name文件，使用集群推荐的脚本进行处理。
 ```
@@ -37,7 +37,8 @@ cat name_00 |while read id;do fastq-dump --split-3 $id;done # 拆分数据
 date
 
 sbatch scrpit.sh #提交任务
-
-
 ```
+还有一步很重要是通过NCBI的数据来判断下载的数据是否是链特异性建库，因为链特异性建库可以区分转录本来自正义反义链的，如果不区分的化直接QC然后比对可能会造成数据的缺失。
+接下来进行数据的质控，主要是去除adapter和N碱基多的reads去除低质量的片段，最后保留duplication进行下一步的定量。
+
 ## 3.定量
