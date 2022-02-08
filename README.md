@@ -41,6 +41,7 @@ sbatch scrpit.sh #提交任务
 还有一步很重要是通过NCBI的数据来判断下载的数据是否是链特异性建库，因为链特异性建库可以区分转录本来自正义反义链的，如果不区分的化直接QC然后比对可能会造成数据的缺失。
 接下来进行数据的质控，主要是去除adapter和N碱基多的reads去除低质量的片段，最后保留duplication进行下一步的定量。
 在集群里面提交脚本
+
 ```
 #!/bin/bash
 #SBATCH --job-name=RNA ##RNA
@@ -62,10 +63,11 @@ sample=${arr[0]}
 trim_galore -q 25 --phred33 --length 35 -e 0.1 --stringency 4 --paired  --gzip -o clean_data  $fq1   $fq2  
 done
 date
+```
+
+详细记录一下trim_galore的用法
 
 ```
-详细记录一下trim_galore的用法
-``
 --quality：设定Phred quality score阈值，默认为20。
 --phred33：：选择-phred33或者-phred64，表示测序平台使用的Phred quality score。
 --adapter：输入adapter序列。也可以不输入，Trim Galore!会自动寻找可能性最高的平台对应的adapter。自动搜选的平台三个，也直接显式输入这三种平台，即--illumina、--nextera和--small_rna。
