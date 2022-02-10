@@ -64,9 +64,11 @@ trim_galore -q 25 --phred33 --length 35 -e 0.1 --stringency 4 --paired  --gzip -
 done
 date
 ```
+后面就会生成质控之后的文件
 
-详细记录一下trim_galore的用法
+![f1d49d2c764dfe8c462cfecf0ed9351](https://user-images.githubusercontent.com/82023298/153360706-c5c1e207-f29f-442e-a875-f183547a6de1.png)
 
+下面详细记录一下脚本里面的语法
 ```
 --quality：设定Phred quality score阈值，默认为20。
 --phred33：：选择-phred33或者-phred64，表示测序平台使用的Phred quality score。
@@ -83,4 +85,47 @@ trim_galore -q 25 --phred33 --length 35 -e 0.1 --stringency 4 --paired  --gzip -
 ```
 
 
-## 3.定量
+## 3.数据比对
+首先下载参考基因组
+[野猪的基因组信息](http://ftp.ensembl.org/pub/release-105/fasta/sus_scrofa/dna/)
+然后需要对于之前质控的文件，进行参考基因组的比对。
+提交脚本
+```
+#!/bin/bash
+#SBATCH --job-name=RNA ##RNA
+#SBATCH --partition=low ##作业申请的分区名称
+#SBATCH --nodes=1 ##作业申请的节点数
+#SBATCH --ntasks-per-node=8 ##作业申请的每个节点使用的核心数
+#SBATCH --error=sample_0.err
+#SBATCH --output=sample_0.out
+
+echo "process will start at : "
+date
+echo "++++++++++++++++++++++++++++++++++++++++"
+cd /public/agis/liuyuwen_group/wangchao/double/unspecificity/clean_data #这里是非特异性建库的质控后的数据的地址
+reference=/public/agis/liuyuwen_group/wangchao/pig_refrence/Sus #参考基因组的地址
+cat sample__0  |while read id;
+do echo $id
+arr=($id)
+fq2=${arr[2]}
+fq1=${arr[1]}
+sample=${arr[0]}
+hisat2 -x $reference -q -1 $fq1 -2 $fq2 --new-summary | samtools sort  -O bam  -@ 5 -o - > BAM/${sample}.bam
+done
+date
+```
+比对软件有tophat，hisat2，STAR，这里记录一下hisat2的参数
+> -x 
+参考基因组索引文件的前缀。
+-1 
+双端测序结果的第一个文件。若有多组数据，使用逗号将文件分隔。Reads的长度可以不一致。
+-2 
+双端测序结果的第二个文件。若有多组数据，使用逗号将文件分隔，并且文件顺序要和-1参数对应。Reads的长度可以不一致。
+-U 
+单端数据文件。若有多组数据，使用逗号将文件分隔。可以和-1、-2参数同时使用。Reads的长度可以不一致。
+–sra-acc 
+输入SRA登录号，比如SRR353653，SRR353654。多组数据之间使用逗号分隔。HISAT将自动下载并识别数据类型，进行比对。
+-S 
+指定输出的SAM文件
+
+
