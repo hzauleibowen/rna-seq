@@ -146,4 +146,24 @@ Options (defaults in parentheses):
   #这里使用了smartool来将hisat2输出了sam文件转化为bam文件，samtools sort -@ 5 -o来缩小文件
 ```
 
+## 4 定量
+这里使用的featucount软件，RNA-seq的计数较为复杂，因为需要考虑到外显子剪切。一种计数方法是数一下与每一个被注释的外显子重合的read，另外一种方法是数一下与每一个基因区域重合的read。
+提交脚本
+```
+#!/bin/bash
+#SBATCH --job-name=RNA ##RNA
+#SBATCH --partition=low ##作业申请的分区名称
+#SBATCH --nodes=3 ##作业申请的节点数
+#SBATCH --ntasks-per-node=8 ##作业申请的每个节点使用的核心数
+#SBATCH --error=sample_1.err
+#SBATCH --output=sample_1.out
+
+echo "process will start at : "
+date
+echo "++++++++++++++++++++++++++++++++++++++++"
+cd /public/agis/liuyuwen_group/wangchao/double/unspecificity/clean_data/BAM
+featureCounts -p -g gene_id -t exon -a Sus_scrofa.Sscrofa11.1.103.gtf -o featureCounts_results *.bam #p代表双端， -t表示feature-type选择外显子，-a表示参考gtf文件名，支持Gzipped文件格式，-g：当参考的gtf提供的时候，我们需要提供一个id identifier 来将feature水平的统计汇总为meta-feature水平的统计，默认为gene_id，注意！选择gtf中提供的id identifier
+
+date
+```
 
