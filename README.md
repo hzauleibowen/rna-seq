@@ -110,7 +110,7 @@ arr=($id)
 fq2=${arr[2]}
 fq1=${arr[1]}
 sample=${arr[0]}
-hisat2 -x $reference -q -1 $fq1 -2 $fq2 --new-summary | samtools sort  -O bam  -@ 5 -o - > BAM/${sample}.bam
+hisat2 -x $reference -q -1 $fq1 -2 $fq2 --new-summary | samtools sort  -O bam  -@ 5 -o - > BAM/${sample}.bam  #**如果是链特异性需要加上参数** 
 done
 date
 ```
