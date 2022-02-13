@@ -144,6 +144,7 @@ Options (defaults in parentheses):
   -3/--trim3 <int>   trim <int> bases from 3'/right end of reads (0)
   
   #这里使用了smartool来将hisat2输出了sam文件转化为bam文件，samtools sort -@ 5 -o来缩小文件
+  # **注意连特异性建库的时候要加上--rna-strandness RF这个参数**
 ```
 
 ## 4 定量
@@ -165,5 +166,9 @@ cd /public/agis/liuyuwen_group/wangchao/double/unspecificity/clean_data/BAM
 featureCounts -p -g gene_id -t exon -a Sus_scrofa.Sscrofa11.1.103.gtf -o featureCounts_results *.bam #p代表双端， -t表示feature-type选择外显子，-a表示参考gtf文件名，支持Gzipped文件格式，-g：当参考的gtf提供的时候，我们需要提供一个id identifier 来将feature水平的统计汇总为meta-feature水平的统计，默认为gene_id，注意！选择gtf中提供的id identifier
 
 date
+# 注释文件添加绝对路径， 特意连比对加 -s  
+# 将用到的每个参数的含义写到下方
+# 所有成功运行的 .err .out文件不要删除，后面需要整合一些结果
+#-p 表示针对双端测序数据 ，-g指定统计的meta-feature一般是gene_id，-t指定统计的feature一般是外显子，-o输出为，-a 输出GTF\GFF的注释文件，输入前切记要添加绝对路径。
 ```
 
