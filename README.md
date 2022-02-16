@@ -182,7 +182,7 @@ tpm <- function(counts, lengths) {
 }
 
 ## read table from featureCounts output
-args <- commandArgs(T)                                            ##commandArg是R里面传递参数的函数如arg[1],arg[2]
+args <- commandArgs(T)                                            ##commandArg是R里面传递参数的函数如arg[1],arg[2]就是传递脚本里面的第一个参数，脚本里面有一个txt
 tag <- tools::file_path_sans_ext(args[1])                         ##tools::file_path_sans_ext：r内置函数该文件包可获取不带扩展名的文件
 ftr.cnt <- read.table(args[1], sep="\t", stringsAsFactors=FALSE,  ##读取表
   header=TRUE)
