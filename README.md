@@ -171,4 +171,32 @@ date
 # 所有成功运行的 .err .out文件不要删除，后面需要整合一些结果
 #-p 表示针对双端测序数据 ，-g指定统计的meta-feature一般是gene_id，-t指定统计的feature一般是外显子，-o输出为，-a 输出GTF\GFF的注释文件，输入前切记要添加绝对路径。
 ```
+使用R软件对featureCount 的结果进行处理
+```
+#! /usr/bin/env Rscript
 
+## Tpm
+tpm <- function(counts, lengths) {
+  rate <- counts / lengths
+  rate / sum(rate) * 1e6
+}
+
+## read table from featureCounts output
+args <- commandArgs(T)                                            ##commandArg是R里面传递参数的函数如arg[1],arg[2]
+tag <- tools::file_path_sans_ext(args[1])                         ##tools::file_path_sans_ext：r内置函数该文件包可获取不带扩展名的文件
+ftr.cnt <- read.table(args[1], sep="\t", stringsAsFactors=FALSE,  ##读取表
+  header=TRUE)
+library(dplyr)
+library(tidyr)
+
+ftr.tpm <- ftr.cnt %>%                                            ##%>%是管道操作，来自dplyr包的管道函数，其作用是将前一步的结果直接传参给下一步的函数，从而省略了中间的赋值步骤
+  gather(sample, cnt, 7:ncol(ftr.cnt)) %>%                             查看featureCount第七列是SRA开头的文件，按sample来合并，传递到定义的tmp函数里面，剔除cnt
+  group_by(sample) %>%
+  mutate(tpm=tpm(cnt, Length)) %>%
+  select(-cnt) %>%
+  spread(sample, tpm)
+
+
+write.table(ftr.tpm, file=paste0(tag, "_TPM.txt"), sep="\t", row.names=FALSE, quote=FALSE)
+
+```
