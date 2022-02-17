@@ -190,13 +190,15 @@ library(dplyr)
 library(tidyr)
 
 ftr.tpm <- ftr.cnt %>%                                            ##%>%是管道操作，来自dplyr包的管道函数，其作用是将前一步的结果直接传参给下一步的函数，从而省略了中间的赋值步骤
-  gather(sample, cnt, 7:ncol(ftr.cnt)) %>%                             查看featureCount第七列是SRA开头的文件，按sample来合并，传递到定义的tmp函数里面，剔除cnt
-  group_by(sample) %>%
-  mutate(tpm=tpm(cnt, Length)) %>%
-  select(-cnt) %>%
-  spread(sample, tpm)
+  gather(sample, cnt, 7:ncol(ftr.cnt)) %>%                             查看featureCount第七列是SRA开头的文件，，gather函数是宽转长的函数，这里是7至后面的列作为cnt，其他的作为sample
+  group_by(sample) %>%                                                 group_by是以XX为标准排列的函数 
+  mutate(tpm=tpm(cnt, Length)) %>%                                     mutate是对已有列为运算，添加为新列                                 
+  select(-cnt) %>%                                                     选择除cnt之外的列
+  spread(sample, tpm)                                                  # 长转宽                                           
 
 
 write.table(ftr.tpm, file=paste0(tag, "_TPM.txt"), sep="\t", row.names=FALSE, quote=FALSE)
 
 ```
+
+在脚本中提交这个Rscript，完成定量。
