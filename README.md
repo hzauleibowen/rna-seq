@@ -110,40 +110,13 @@ arr=($id)
 fq2=${arr[2]}
 fq1=${arr[1]}
 sample=${arr[0]}
-hisat2 -x $reference -q -1 $fq1 -2 $fq2 --new-summary | samtools sort  -O bam  -@ 5 -o - > BAM/${sample}.bam  #**如果是链特异性需要加上参数** 
+hisat2 -x $reference -q -1 $fq1 -2 $fq2 --new-summary | samtools sort  -O bam  -@ 5 -o - > BAM/${sample}.bam
+#**如果是链特异性需要加上参数--rna-strandness RF --rna-strandness FR  its paired end data and forward stranded，设置为FR，反之为RF
 done
 date
 ```
-比对软件有tophat，hisat2，STAR，这里记录一下hisat2的参数
 ```
-  hisat2 [options]* -x <ht2-idx> {-1 <m1> -2 <m2> | -U <r>} [-S <sam>]
-
-  <ht2-idx>  Index filename prefix (minus trailing .X.ht2). 索引文件的前缀
-  <m1>       Files with #1 mates, paired with files in <m2>.Could be gzip'ed (extension: .gz) or bzip2'ed (extension: .bz2).
-             Paired-end测序的第一个文件，可以是压缩格式的（`.gz`或者`.bz2`）
-  <m2>       Files with #2 mates, paired with files in <m1>.
-             Could be gzip'ed (extension: .gz) or bzip2'ed (extension: .bz2).Paired-end测序的第二个文件
-  <r>        Files with unpaired reads.
-             Could be gzip'ed (extension: .gz) or bzip2'ed (extension: .bz2).single-end测序的文件
-  <sam>      File for SAM output (default: stdout)
-             输出比对的结果（`.sam`）
-
-  <m1>, <m2>, <r> can be comma-separated lists (no whitespace) and can be  specified many times.  E.g. '-U file1.fq,file2.fq -U file3.fq'.可以是多个序列文件用逗号分隔
-
-Options (defaults in parentheses):
-
- Input:
-  -q                 query input files are FASTQ .fq/.fastq (default)输入检索序列为FASTQG格式
-  --qseq             query input files are in Illumina's qseq format输入检索序列是Illumina qseq格式
-  -f                 query input files are (multi-)FASTA .fa/.mfa输入文件是多个FASTA文件
-  -r                 query input files are raw one-sequence-per-line输入检索序列是每行一个原始序列
-  -c                 <m1>, <m2>, <r> are sequences themselves, not files直接输入序列，而不是文件
-  -s/--skip <int>    skip the first <int> reads/pairs in the input (none)忽略输入序列的前`<int>`个
-  -u/--upto <int>    stop after first <int> reads/pairs (no limit)只分析输入序列的前`<int>`个
-  -5/--trim5 <int>   trim <int> bases from 5'/left end of reads (0)剪去reads长度为`<int>`的5'端序列
-  -3/--trim3 <int>   trim <int> bases from 3'/right end of reads (0)
-  
-  #这里使用了smartool来将hisat2输出了sam文件转化为bam文件，samtools sort -@ 5 -o来缩小文件
+比对软件有tophat，hisat2，STAR，这里记录一下hisat2的参数
   # **注意连特异性建库的时候要加上--rna-strandness RF这个参数**
 ```
 
